@@ -8,16 +8,11 @@ document.getElementById("4").style.visible = "hidden";
 document.getElementById("5").style.visible = "hidden";
 
 let second = 0;
+var n = 0;
 
-document.getElementById("bt").onclick = sleep(1000);
+document.getElementById("bt").onclick = sl(1000);
 
-function sleep(milliseconds) { 
-    let timeStart = new Date().getTime(); 
-    while (true) { 
-      let elapsedTime = new Date().getTime() - timeStart; 
-      if (elapsedTime > milliseconds) { 
-        break; 
-      } 
-    } 
-  console.log('ok');
-}
+let vr = window.setInterval(function(){
+  console.log(n);
+  n++;
+},1000);
