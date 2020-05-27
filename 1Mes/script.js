@@ -8,6 +8,7 @@ document.getElementById("bt").onclick = function show(){
   count += 1;
   if(count == 1){
     document.getElementById("1").style.visibility = "visible";
+    document.getElementById("bt").value = "again";
   }
 }
 
