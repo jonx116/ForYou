@@ -4,10 +4,13 @@ let add        =    document.getElementById('add');
 
 document.getElementById('btm').onclick = function changeContent() {
   
-  if( usuario  == "1Mes" && contraseña == "iloveyou"){
+  if( usuario.value  == "mes" && contraseña.value == "iloveyou"){
     add.style.visibility = "visible";
     console.log("query OK");
-  }else{
+  }else if( usuario.value  != "mes" && contraseña.value != "iloveyou"){
     console.log("query ERROR");
+  }else{
+    console.log(FALTAL ERROR);
   }
 }
+
