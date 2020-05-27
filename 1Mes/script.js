@@ -9,10 +9,7 @@ document.getElementById("5").style.visible = "hidden";
 
 var n = 0;
 
-document.getElementById("bt").onclick = vr();
-
-function vr() { window.setInterval(function(){
+ window.setInterval(function(){
   console.log(n);
   n++;
 },1000);
-}
