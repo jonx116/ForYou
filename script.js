@@ -1,5 +1,5 @@
-let usuario    =    document.getElementById('useri');
-let contraseña =    document.getElementById('passi');
+let usuario    =    document.getElementById('useri').value;
+let contraseña =    document.getElementById('passi').value;
 let btm        =    document.getElementById('btm');
 let add        =    document.getElementById('add');
 
