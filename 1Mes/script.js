@@ -7,7 +7,6 @@ document.getElementById("3").style.visible = "hidden";
 document.getElementById("4").style.visible = "hidden";
 document.getElementById("5").style.visible = "hidden";
 
-let second = 0;
 var n = 0;
 
 document.getElementById("bt").onclick = vr();
