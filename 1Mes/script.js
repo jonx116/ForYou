@@ -16,6 +16,7 @@ var n = 0;
 },1000);
 
 document.getElementById("bt").onclick = function show(){
+ n=0;
  while(n < 5 ){
   document.getElementById("h2").style.visibility = "hidden";
 }
