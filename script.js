@@ -10,5 +10,8 @@ btm.onclick = submit();
 function submit(){
   if( usuario  == '1Mes' && contraseña == 'iloveyou'){
     add.style.visibility = "visible";
+    console.log("query OK");
+  }else{
+    console.log("query ERROR");
   }
 }
