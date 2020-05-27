@@ -9,13 +9,15 @@ document.getElementById("5").style.visible = "hidden";
 
 let second = 0;
 
-document.getElementById("bt").onclick = time();
+document.getElementById("bt").onclick = sleep(1000);
 
-function time(){
-  let X = 0;
-  while(X == 0){
-  second += 1;
-  sleep(1000);
-  console.log(second);
-}
+function sleep(milliseconds) { 
+    let timeStart = new Date().getTime(); 
+    while (true) { 
+      let elapsedTime = new Date().getTime() - timeStart; 
+      if (elapsedTime > milliseconds) { 
+        break; 
+      } 
+    } 
+  console.log('ok');
 }
