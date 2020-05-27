@@ -9,7 +9,7 @@ document.getElementById("add").style.visibility = "visible";
     
     console.log("query OK");
     
-  }else if( usuario.value  != "mes" || contraseña.value != "iloveyou"){
+  }else if(document.getElementById('useri').value != "mes" ||document.getElementById('passi').value != "iloveyou"){
     
     console.log(document.getElementById('useri').value);
     
