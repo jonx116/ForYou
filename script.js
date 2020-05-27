@@ -8,7 +8,7 @@ add.style.visibility = "hidden";
 btm.onclick = submit();
   
 function submit(){
-  if( usuario  == '1Mes' && contraseña == 'iloveyou'){
+  if( usuario  == "1Mes" && contraseña == "iloveyou"){
     add.style.visibility = "visible";
     console.log("query OK");
   }else{
