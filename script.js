@@ -1,7 +1,7 @@
 let usuario = getElementById('useri');
 let contraseña = getElementById('passi');
 let btm = getElementById('btm');
-let add = getElementByClass('add');
+let add = getElementById('add');
 
 add.style.visibility = "hidden";
 
