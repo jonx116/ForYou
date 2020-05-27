@@ -10,7 +10,7 @@ document.getElementById("5").style.visibility = "hidden";
 
 var n = 0;
 
- window.setInterval(function(){
+ document.getElementById("bt").onclick = window.setInterval(function(){
   console.log(n);
   n++;
 },1000);
