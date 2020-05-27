@@ -11,7 +11,7 @@ document.getElementById("add").style.visibility = "visible";
     
   }else if( usuario.value  != "mes" || contraseña.value != "iloveyou"){
     
-    console.log("query ERROR");
+    console.log(document.getElementById('useri').value);
     
   }else{
     console.log("FALTAL ERROR");
