@@ -20,7 +20,7 @@ var n = 0;
 document.getElementById("bt").onclick = function show(){
  n=0;
  while(n < 10 ){
-  document.getElementById("h2").style.visibility = "hidden";
+  document.getElementById("h1").style.visibility = "hidden";
 }
 }
               }
