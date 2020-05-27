@@ -14,6 +14,8 @@ document.getElementById("bt").onclick = function show(){
   }else{
       count = 0;
       document.getElementById("1").style.visibility  = "hidden";
+       document.getElementById("1").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTso0LQsMvH36tpZuxxAKl3isps9Jw0sA1oXrKNH7wdQ30xhVcl&usqp=CAU"; 
+      
        
   }
 }
