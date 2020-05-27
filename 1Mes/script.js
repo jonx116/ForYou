@@ -18,8 +18,6 @@ function time(){
   sleep(1000);
   console.log(second);
 }
-
-
   function sleep(milliseconds) {
     const date = Date.now();
     let currentDate = null;
