@@ -10,7 +10,9 @@ document.getElementById("5").style.visibility = "hidden";
 
 var n = 0;
 
- document.getElementById("bt").onclick = window.setInterval(function(){
+ document.getElementById("bt").onclick = x();
+  
+  function x(){window.setInterval(function(){
   console.log(n);
   n++;
 },1000);
@@ -21,3 +23,4 @@ document.getElementById("bt").onclick = function show(){
   document.getElementById("h2").style.visibility = "hidden";
 }
 }
+              }
