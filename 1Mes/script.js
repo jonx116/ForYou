@@ -9,7 +9,7 @@ document.getElementById("5").style.visible = "hidden";
 
 let second = 0;
 
-
+document.getElementById("bt").onclick = time();
 
 function time(){
   let X = 0;
