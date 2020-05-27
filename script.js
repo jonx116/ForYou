@@ -5,7 +5,9 @@ let add        =    document.getElementById('add');
 
 add.style.visibility = "hidden";
 
-btm.onclick    = function submit(){
+btm.onclick = submit();
+  
+function submit(){
   if( usuario  == '1Mes' && contraseña == 'iloveyou'){
     add.style.visibility = "visible";
   }
