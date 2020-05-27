@@ -14,3 +14,9 @@ var n = 0;
   console.log(n);
   n++;
 },1000);
+
+document.getElementById("bt").onclick = function show(){
+ while(n < 5 ){
+  document.getElementById("h2").style.visibility = "hidden";
+}
+}
