@@ -12,7 +12,7 @@ document.getElementById('btm').onclick = function changeContent() {
   }else if( usuario.value  != "mes" && contraseña.value != "iloveyou"){
     console.log("query ERROR");
   }else{
-    console.log(FALTAL ERROR);
+    console.log("FALTAL ERROR");
   }
 }
 
