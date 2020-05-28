@@ -1,5 +1,5 @@
 document.getElementById("h1").style.visibility = "visible";
-document.getElementById("bt").style.visibility = "visible";
+document.getElementById("bt").style.visibility = "hidden";
 document.getElementById("h2").style.visibility = "hidden";
 document.getElementById("1").style.visibility  = "hidden";
 document.getElementById("bdy").style = "background-color: #A24CB8;"; 
