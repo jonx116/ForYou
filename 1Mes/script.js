@@ -3,8 +3,12 @@ document.getElementById("bt").style.visibility = "visible";
 document.getElementById("h2").style.visibility = "hidden";
 document.getElementById("1").style.visibility  = "hidden";
 document.getElementById("bdy").style = "background-color: #A24CB8"; 
+document.getElementById("2").style.visibility  = "hidden";
 
 var count = 0;
+var cont  = 0;
+
+/*---------------------------------*/
 document.getElementById("bt").onclick = function show(){
   count += 1;
   if(count == 1){
@@ -22,6 +26,30 @@ document.getElementById("bt").onclick = function show(){
 
        document.getElementById("1").src = "https://image.flaticon.com/icons/png/512/25/25238.png"; 
             document.getElementById("bdy").style = "background-color: #A24CB8;";
+    document.getElementById("bt").style.visibility = "hidden";
        
   }
 }
+/*-------------------------------------*/
+
+
+document.getElementById("bt2").onclick = function same(){
+  cont += 1;
+  if(cont == 1){
+    document.getElementById("2").style.visibility  = "visible";
+    
+  }else if(cont == 2){
+    document.getElementById("2").src = "https://www.nippon.com/es/ncommon/contents/japan-topics/130670/130670.jpg";
+  }else if(cont == 3){
+    document.getElementById("2").src = "https://steemitimages.com/DQmRct2Mz7kobt1bbc31egk7HwsXBJYr51YKthndciLkzqp/desktop-background-3061483__340.jpg";
+  }else if(cont == 4){
+    document.getElementById("2").src = "https://www.pngitem.com/pimgs/m/506-5060192_tik-tok-logo-png-transparent-png.png";
+  }else if(cont == 5){
+    document.getElementById("2").src =  "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-164848880-1551702862.jpg?resize=480:*";
+  }
+  else{
+   document.getElementById("2").src = "https://image.flaticon.com/icons/png/512/25/25238.png";
+      document.getElementById("bt2").style.visibility = "hidden";
+  }
+}
+
