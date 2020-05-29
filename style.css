@@ -1,7 +1,7 @@
 body {
   background-color: #3DE3E3;
   font: oblique bold 120% cursive;
-  text-align:center;
+  margin: 10px;
 }
 #passi, #useri{
      border-radius: 5px;
