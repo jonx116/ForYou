@@ -6,4 +6,17 @@ body {
 #passi, #useri{
      border-radius: 5px;
      border: 1px solid #39c;
-   }
+}
+#btm{
+  background-color: #e7e7e7;
+  color:  #555555;
+  font-size: 12px;
+  padding: 14px 40px;
+  border-radius: 12px;
+  border: 2px solid #CC2D00;
+  transition-duration: 0.4s;
+}
+#btm:hover{
+  background-color: #555555;
+  color: #e7e7e7;
+}
