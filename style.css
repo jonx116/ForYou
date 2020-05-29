@@ -2,4 +2,7 @@ body {
   background-color: #3DE3E3;
   font: oblique bold 120% cursive;
   text-align:center;
-}
+} {
+     border-radius: 5px;
+     border: 1px solid #39c;
+   }
