@@ -1,7 +1,6 @@
-body {
-  background-color: #3DE3E3;
-  font: oblique bold 120% cursive;
-  margin: 10px;
+
+#h11{
+  margin: 10px 50px;
 }
 #passi, #useri{
      border-radius: 5px;
@@ -13,10 +12,30 @@ body {
   font-size: 12px;
   padding: 14px 40px;
   border-radius: 12px;
-  border: 2px solid #CC2D00;
+  border: 2px solid #111CBD;
   transition-duration: 0.4s;
+  margin: 32px  20px;
 }
 #btm:hover{
-  background-color: #008CBA;
+  background-color: #555555;
   color: #e7e7e7;
+  font: oblique bold 120% cursive;
+}
+body {
+  background-color: #3DE3E3;
+  font: oblique bold 120% cursive;
+  margin: 100px 250px;
+}
+#img1{
+  
+  margin: 5px 1px;
+}
+.login{
+  margin: 10px 70px;
+}
+#userl{
+  margin: 32px 40px;
+}
+#passl{
+  margin: 32px 30px;
 }
