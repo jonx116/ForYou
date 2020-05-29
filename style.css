@@ -17,6 +17,6 @@ body {
   transition-duration: 0.4s;
 }
 #btm:hover{
-  background-color: #555555;
+  background-color: #008CBA;
   color: #e7e7e7;
 }
