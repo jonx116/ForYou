@@ -1,4 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 #bdy{
-  margin: 20px lightgrey;
+  margin: 20px;
   border 15px solidgreen; 
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
